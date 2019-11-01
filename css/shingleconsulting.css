@@ -1,0 +1,159 @@
+html,
+.modular-row.callout,
+.hero-image,
+.identity.background {
+    height: 100%;
+}
+
+html {
+    background: url(../assets/shinglestreet.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    background-color: transparent;
+}
+
+.navbar-default {
+    background-color: red;
+}
+
+.identity.background,
+.identity.background .contents {
+    height: -webkit-fill-available;
+    min-height: 90%;
+    max-height: 100%;
+}
+
+.background,
+.hero-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+html body nav.navbar {
+    margin-bottom: 0;
+    background-color: rgba(204, 204, 204, 0.9)!important;
+}
+
+.navbar-brand {
+    margin: auto;
+    color: #003366!important;
+}
+
+.callout {
+    padding: 0;
+}
+
+.identity {
+    padding: 100px;
+}
+
+.noPadding {
+    padding: 0;
+}
+
+.contents {
+    background-color: rgba(204, 204, 204, 0.5);
+    padding: 40px 60px;
+    backdrop-filter: blur(1px);
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+div.contents ul {
+    color: green;
+    padding: 0;
+}
+
+div.contents ul li {
+    padding: 4px 10px;
+    background-color: #003366;
+    border-radius: 14px;
+    font-size: 0.9em;
+    margin: 4px 2px;
+    list-style-type: none;
+    display: inline-block;
+    line-height: inherit;
+    color: white;
+    font-weight: 200;
+}
+
+ul.tags li {
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    line-height: inherit;
+}
+
+.dark {
+    color: #fff;
+}
+
+.dark a {
+    color: yellow;
+}
+
+button.btn-primary {
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    div.identity {
+        padding: 0;
+    }
+    div.contents {
+        margin-bottom: 0;
+    }
+}
+
+h2 {
+    margin-bottom: 0.8em;
+}
+
+p {
+    line-height: 30px;
+        font-weight: 500;
+}
+
+footer {
+    background-color: rgba(0,51,102,0.8);
+    
+}
+
+.creds {
+    padding:20px 0;
+    margin: auto;
+}
+
+.creds a {
+    color: #fd7e14;
+    text-decoration: underline;
+}
+
+.btn-primary {
+    background-color:#003366;
+    border-color: #003366;
+}
+
+.headline {
+    text-align: center;
+    color: #003366;
+}
+
+a.contact {
+    color: #fff;
+    background-color: #003366;
+    border-color: #003366;
+    padding: 6px 12px;
+    margin-top: 20px;
+    border-radius: 4px;
+    display: inline-block;
+}
